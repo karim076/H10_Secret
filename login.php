@@ -17,10 +17,11 @@
 
     <?php require_once 'header.php'; ?>
     <div class="container home">
-        <form action="................." method="POST">
-            <input type="text" name="username" placeholder="user">
+        <form action="backend/loginController.php" method="POST">
+            <input type="text" name="username" id="username" placeholder="user">
             <input type="password" name="password" placeholder="pass">
             <!-- nog een submit-knop -->
+            <input type="submit" name="button">
         </form>
     </div>
 
